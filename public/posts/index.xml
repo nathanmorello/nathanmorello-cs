@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on </title>
+    <link>https://curious-stack.pages.dev/posts/</link>
+    <description>Recent content in Posts on </description>
+    <image>
+      <title></title>
+      <url>https://curious-stack.pages.dev/images/doubtfulman.jpg</url>
+      <link>https://curious-stack.pages.dev/images/doubtfulman.jpg</link>
+    </image>
+    <generator>Hugo -- 0.151.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 30 Oct 2025 23:35:19 +0100</lastBuildDate>
+    <atom:link href="https://curious-stack.pages.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mini Howtos &#39;＼（〇_ｏ）／&#39;</title>
+      <link>https://curious-stack.pages.dev/posts/mini-howtos/</link>
+      <pubDate>Thu, 30 Oct 2025 23:35:19 +0100</pubDate>
+      <guid>https://curious-stack.pages.dev/posts/mini-howtos/</guid>
+      <description>A small Bash script for fast sysadmin notes</description>
+    </item>
+  </channel>
+</rss>

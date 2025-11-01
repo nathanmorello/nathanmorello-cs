@@ -1,0 +1,53 @@
+{{ define "main" }}
+  <main class="max-w-4xl mx-auto px-4 mt-8">
+
+    {{/* Blocchetto introduttivo (homeInfoParams o _index.md) */}}
+    {{ if .IsHome }}
+      {{ if .Site.Params.homeInfoParams }}
+        <section class="text-center mb-10">
+          <h1 class="text-4xl font-bold mb-2">{{ .Site.Params.homeInfoParams.Title }}</h1>
+          <p class="text-lg text-gray-600">{{ .Site.Params.homeInfoParams.Content }}</p>
+        </section>
+      {{ else if .Content }}
+        <section class="text-center mb-10">
+          {{ .Content }}
+        </section>
+      {{ end }}
+    {{ end }}
+
+    {{/* Lista articoli */}}
+    <section>
+      {{ $pages := .Site.RegularPages }}
+      {{ if .IsHome }}
+        {{ $pages = where $pages "Section" "in" .Site.Params.mainSections }}
+      {{ end }}
+
+      {{ if gt (len $pages) 0 }}
+        <div class="grid gap-8">
+          {{ range $pages }}
+            <article class="border rounded-2xl shadow-sm hover:shadow-md transition p-4">
+              {{ with .Params.cover.image }}
+                <a href="{{ .RelPermalink }}">
+                  <img src="{{ . }}" alt="{{ $.Title }}" class="rounded-2xl mb-3">
+                </a>
+              {{ end }}
+              <h2 class="text-2xl font-semibold mb-2">
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+              </h2>
+              <time class="text-sm text-gray-500 block mb-2">{{ .Date.Format "Jan 2, 2006" }}</time>
+              {{ if .Params.summary }}
+                <p>{{ .Params.summary }}</p>
+              {{ else }}
+                <p>{{ .Summary }}</p>
+              {{ end }}
+            </article>
+          {{ end }}
+        </div>
+      {{ else }}
+        <p class="text-center text-gray-600">No posts yet.</p>
+      {{ end }}
+    </section>
+
+  </main>
+{{ end }}
+
