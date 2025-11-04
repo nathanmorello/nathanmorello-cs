@@ -3,7 +3,7 @@ title: "Mini Howtos '＼（〇_ｏ）／'"
 date: 2025-10-30T23:35:19+01:00
 draft: false
 tags: ["Linux", "Zettelkasten", "Bash", "System Administration"]
-categories: ["Sailing the Cloud"]
+categories: ["Tech Stack"]
 summary: "A small Bash script for fast sysadmin notes"
 cover:
   images: ["/images/nat-takin-notesY.png", "/images/burroughscuts.jpg"]
@@ -34,7 +34,7 @@ Then two things happened:
 2. I decided to improve my knowledge of Bash, because it’s one of the fundamental tools for both Linux administration and for building a career in the DevOps field.
 
 
->{{< figure src="/images/burroughscuts.jpg" width="550" alt="Burroughs" >}}  
+>{{< figure src="/images/burroughscuts.jpg" width="350" alt="Burroughs" >}}  
 >So, like a little **William Burroughs**, I started doing a proper [cut-up](https://austinkleon.com/2018/09/18/the-surprisingly-long-history-of-the-cut-up-technique/) of my troubleshooting notes—and other pieces of useful notes taken during the years—to create a **simple**, **fast, fully terminal-based** way to save small documentation notes, snippets, and troubleshooting tips. A handy tool to set aside those dozens of tiny discoveries, insights, and searches: how was that `iptables` command? And that Apache fix? Look at that nice Ansible snippet! How is that thing you need to do on the Wazuh server to remove a deprecated agent...?.
 Basically a little *Zettelkaste* dedicated to those famous “**tricks of the trade**” you don’t want to forget... and that you can use for showing off to your colleagues 😎
 

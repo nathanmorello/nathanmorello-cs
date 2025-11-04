@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title></title>
-    <link>https://curious-stack.pages.dev/</link>
+    <link>https://nathanmorello.com/</link>
     <description>Recent content on </description>
     <image>
       <title></title>
-      <url>https://curious-stack.pages.dev/images/doubtfulman.jpg</url>
-      <link>https://curious-stack.pages.dev/images/doubtfulman.jpg</link>
+      <url>https://nathanmorello.com/images/doubtfulman.jpg</url>
+      <link>https://nathanmorello.com/images/doubtfulman.jpg</link>
     </image>
     <generator>Hugo -- 0.151.2</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 30 Oct 2025 23:35:19 +0100</lastBuildDate>
-    <atom:link href="https://curious-stack.pages.dev/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://nathanmorello.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mini Howtos &#39;＼（〇_ｏ）／&#39;</title>
-      <link>https://curious-stack.pages.dev/posts/mini-howtos/</link>
+      <link>https://nathanmorello.com/posts/mini-howtos/</link>
       <pubDate>Thu, 30 Oct 2025 23:35:19 +0100</pubDate>
-      <guid>https://curious-stack.pages.dev/posts/mini-howtos/</guid>
+      <guid>https://nathanmorello.com/posts/mini-howtos/</guid>
       <description>A small Bash script for fast sysadmin notes</description>
     </item>
     <item>
       <title>About</title>
-      <link>https://curious-stack.pages.dev/about/</link>
+      <link>https://nathanmorello.com/about/</link>
       <pubDate>Tue, 28 Oct 2025 23:30:13 +0100</pubDate>
-      <guid>https://curious-stack.pages.dev/about/</guid>
+      <guid>https://nathanmorello.com/about/</guid>
       <description>Trust me, I am a&amp;hellip;</description>
     </item>
   </channel>

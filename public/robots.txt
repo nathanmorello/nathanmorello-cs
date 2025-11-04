@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://curious-stack.pages.dev/sitemap.xml
+Sitemap: https://nathanmorello.com/sitemap.xml
