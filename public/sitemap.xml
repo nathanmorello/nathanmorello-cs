@@ -2,40 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://https://nathanmorello-cs.pages.dev/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2025-10-30T23:35:19+01:00</lastmod>
   </url><url>
-    <loc>https://https://nathanmorello-cs.pages.dev/tags/bash/</loc>
+    <loc>http://localhost:1313/tags/bash/</loc>
     <lastmod>2025-10-30T23:35:19+01:00</lastmod>
   </url><url>
-    <loc>https://https://nathanmorello-cs.pages.dev/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2025-10-30T23:35:19+01:00</lastmod>
   </url><url>
-    <loc>https://https://nathanmorello-cs.pages.dev/tags/linux/</loc>
+    <loc>http://localhost:1313/tags/linux/</loc>
     <lastmod>2025-10-30T23:35:19+01:00</lastmod>
   </url><url>
-    <loc>https://https://nathanmorello-cs.pages.dev/posts/mini-howtos/</loc>
+    <loc>http://localhost:1313/posts/mini-howtos/</loc>
     <lastmod>2025-10-30T23:35:19+01:00</lastmod>
   </url><url>
-    <loc>https://https://nathanmorello-cs.pages.dev/posts/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2025-10-30T23:35:19+01:00</lastmod>
   </url><url>
-    <loc>https://https://nathanmorello-cs.pages.dev/tags/system-administration/</loc>
+    <loc>http://localhost:1313/tags/system-administration/</loc>
     <lastmod>2025-10-30T23:35:19+01:00</lastmod>
   </url><url>
-    <loc>https://https://nathanmorello-cs.pages.dev/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-10-30T23:35:19+01:00</lastmod>
   </url><url>
-    <loc>https://https://nathanmorello-cs.pages.dev/categories/tech-stack/</loc>
+    <loc>http://localhost:1313/categories/tech-stack/</loc>
     <lastmod>2025-10-30T23:35:19+01:00</lastmod>
   </url><url>
-    <loc>https://https://nathanmorello-cs.pages.dev/tags/zettelkasten/</loc>
+    <loc>http://localhost:1313/tags/zettelkasten/</loc>
     <lastmod>2025-10-30T23:35:19+01:00</lastmod>
   </url><url>
-    <loc>https://https://nathanmorello-cs.pages.dev/about/</loc>
+    <loc>http://localhost:1313/posts/information-diet/</loc>
+    <lastmod>2025-10-28T23:39:23+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/learning/</loc>
+    <lastmod>2025-10-28T23:39:23+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/mental-health/</loc>
+    <lastmod>2025-10-28T23:39:23+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/social-networks/</loc>
+    <lastmod>2025-10-28T23:39:23+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/soft-stack/</loc>
+    <lastmod>2025-10-28T23:39:23+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/about/</loc>
     <lastmod>2025-10-28T23:30:13+01:00</lastmod>
   </url><url>
-    <loc>https://https://nathanmorello-cs.pages.dev/tags/nathan-morello/</loc>
+    <loc>http://localhost:1313/tags/nathan-morello/</loc>
     <lastmod>2025-10-28T23:30:13+01:00</lastmod>
   </url>
 </urlset>
