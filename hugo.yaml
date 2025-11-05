@@ -63,7 +63,9 @@ params:
   profileMode:
     enabled: true# needs to be explicitly set
     title: Nathan Morello's Curious Stack
-    subtitle: "A blog on my DevOps journey and other lessons learned"
+    subtitle: |
+      A blog on my DevOps journey  
+      and other lessons learned
     imageUrl: "/images/doubtfulman.jpg"
     imageWidth: 200
     imageHeight: 200
@@ -149,10 +151,6 @@ menu:
       name: Tags
       url: /tags/
       weight: 30
-    - identifier: categories
-      name: Categories
-      url: /categories/
-      weight: 40
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
