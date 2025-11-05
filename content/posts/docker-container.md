@@ -8,22 +8,25 @@ categories: ["Core Stack"]
 featured_image: "/images/docker-lazy1.png" 
 
 ---  
-{{< figure src="/images/docker-lazy1.png" width="800" alt="docker lazy" >}}
-**It all started** when I was watching [this video](https://www.youtube.com/watch?v=iagjeLuxnMs&t=1984s) by Mischa van den Burg. At one point, he starts talking about LazyVim and says:
+{{< figure src="/images/docker.png" width="800" alt="docker" >}}
+I’m a big fan of the “jumping in cold water” method, especially when you know almost nothing about something. You won’t learn _everything_ right away, but you _will_ learn how to do _something_ with it.  
 
-> _“You can get the Neovim distribution LazyVim at lazyvim.org. I highly recommend it—you can just run it in a Docker container to get started, and it’s, um, yeah, a great setup!”_
+It’s like a “pre-homelab”—a practical exercise you do before fully understanding... what you’re doing. In this it’s almost like doing any tutorial, but it  comes wiht a practical aim: something you can use repeatedly to get familiar with the process.  
+And when you start diving into it properly, everything will make much more sense—and faster too.
+
+## It all started when...
+It all started when I was watching [this video](https://www.youtube.com/watch?v=iagjeLuxnMs&t=1984s) by Mischa van den Burg. At one point, he starts talking about **LazyVim** and says:
+
+{{< figure src="/images/docker-lazy1.png" width="600" alt="docker lazy" >}}
 
 
 As illustrated above, my brain goes blank. I do remember taking a Docker course once (or twice?), and I also remember working with it a little… But running a container and testing an application inside it? Totally forgotten.
 
 So, if you’re like me —heard about it but don’t really know it— I believe this is a good opportunity to mess around a bit, which is often the best way to start.
 
-I’m a big fan of the “jumping in cold water” method, especially when you know almost nothing about something. You won’t learn _everything_ right away, but you _will_ learn how to do _something_ with it. And that will be a huge help when you start learning it properly.
 
-It’s like a “pre-homelab”—a practical exercise you do before fully understanding _what_ you’re doing. Sure, it’s a tutorial, but it has a practical aim: something you can use repeatedly to get familiar with the process. And when you start learning it properly, everything will make much more sense—and faster too.
 
 ## What’s Docker?  
-{{< figure src="/images/docker.png" width="800" alt="docker" >}}
 Docker is a platform that allows you to package applications and their dependencies into **isolated containers**. Containers run consistently on **any system**, making development, testing, and deployment easier and more reliable. It’s widely used for building lightweight, portable, and reproducible development environments. It also allows you to test applications safely, without affecting your system.  
 Docker lies at the very backbone of DevOps.
 
@@ -91,7 +94,7 @@ sudo docker run -w /root -it --rm alpine:edge sh -uelic '
  '
 ```
 
-#### What This Does
+**What This Does**
 
 `sudo docker run` → starts a new Docker container  
 `-w /root` → sets the working directory to `/root`  
