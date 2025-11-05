@@ -2,22 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Bash on </title>
-    <link>http://localhost:1313/tags/bash/</link>
+    <link>https://nathanmorello.com/tags/bash/</link>
     <description>Recent content in Bash on </description>
     <image>
       <title></title>
-      <url>http://localhost:1313/images/doubtfulman.jpg</url>
-      <link>http://localhost:1313/images/doubtfulman.jpg</link>
+      <url>https://nathanmorello.com/images/doubtfulman.jpg</url>
+      <link>https://nathanmorello.com/images/doubtfulman.jpg</link>
     </image>
     <generator>Hugo -- 0.151.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Oct 2025 23:35:19 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/bash/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nathanmorello.com/tags/bash/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Try it in a Docker Container! A Beginner’s Hands-On Guide </title>
+      <link>https://nathanmorello.com/posts/docker-container/</link>
+      <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://nathanmorello.com/posts/docker-container/</guid>
+      <description>A lightweight, disposable Docker setup to explore LazyVim safely without touching your system.</description>
+    </item>
     <item>
       <title>Mini Howtos &#39;＼（〇_ｏ）／&#39;</title>
-      <link>http://localhost:1313/posts/mini-howtos/</link>
+      <link>https://nathanmorello.com/posts/mini-howtos/</link>
       <pubDate>Thu, 30 Oct 2025 23:35:19 +0100</pubDate>
-      <guid>http://localhost:1313/posts/mini-howtos/</guid>
+      <guid>https://nathanmorello.com/posts/mini-howtos/</guid>
       <description>A small Bash script for fast sysadmin notes</description>
     </item>
   </channel>
