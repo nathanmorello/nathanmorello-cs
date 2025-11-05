@@ -36,7 +36,7 @@ Then two things happened:
 
 
 >{{< figure src="/images/burroughscuts.jpg" width="350" alt="Burroughs" >}}  
->So, like a little **William Burroughs**, I started doing a proper [cut-up](https://austinkleon.com/2018/09/18/the-surprisingly-long-history-of-the-cut-up-technique/) of my troubleshooting notes—and other pieces of useful notes taken during the years—to create a **simple**, **fast, fully terminal-based** way to save small documentation notes, snippets, and troubleshooting tips. 
+>So, like a little **William Burroughs**, I started doing a proper [cut-up](https://austinkleon.com/2018/09/18/the-surprisingly-long-history-of-the-cut-up-technique/) of my troubleshooting notes—and other pieces of useful notes taken during the years—to create a **simple**, **fast, fully terminal-based** way to save small documentation notes, snippets, and troubleshooting tips.   
 
 A handy tool for organizing all those small discoveries, insights, and searches — **especially helpful when you need to learn and retain information from *someone else’s* documentation**.: how was that `iptables` command? And that Apache fix? Look at that nice Ansible snippet! How is that thing you need to do on the Wazuh server to remove a deprecated agent...?.
 Basically a little *Zettelkaste* dedicated to those famous “**tricks of the trade**” you don’t want to forget... and that you can use for showing off to your colleagues 😎
