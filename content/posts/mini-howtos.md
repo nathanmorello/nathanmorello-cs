@@ -3,7 +3,7 @@ title: "Mini Howtos '＼（〇_ｏ）／'"
 date: 2025-10-30T23:35:19+01:00
 draft: false
 tags: ["Linux", "Zettelkasten", "Bash", "System Administration"]
-categories: ["Tech Stack"]
+categories: ["Core Stack"]
 summary: "A small Bash script for fast sysadmin notes"
 cover:
   images: ["/images/nat-takin-notesY.png", "/images/burroughscuts.jpg"]
