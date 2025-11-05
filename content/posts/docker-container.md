@@ -1,69 +1,81 @@
 ---
 title: "Try it in a Docker Container! A Beginner’s Hands-On Guide " 
 date: 2025-11-05 
-draft: true
+draft: false
 summary: "A lightweight, disposable Docker setup to explore LazyVim safely without touching your system." 
-tags: ["neovim", "lazyvim", "docker", "alpine", "dev-environment"] 
+tags: ["neovim", "lazyvim", "docker", "alpine", "dev-environment", "bash"] 
 categories: ["Core Stack"]
-featured_image: "/images/docker-lazy.png" 
+featured_image: "/images/docker-lazy1.png" 
 
 ---  
-It all started when I was watching a video by Mischa van den Burg on LazyVim. At one point he says:
+{{< figure src="/images/docker-lazy1.png" width="800" alt="docker lazy" >}}
+**It all started** when I was watching [this video](https://www.youtube.com/watch?v=iagjeLuxnMs&t=1984s) by Mischa van den Burg. At one point, he starts talking about LazyVim and says:
 
 > _“You can get the Neovim distribution LazyVim at lazyvim.org. I highly recommend it—you can just run it in a Docker container to get started, and it’s, um, yeah, a great setup!”_
 
-{{< figure src="/images/docker-lazy.png" width="500" alt="docker lazy" >}}
 
-At that point, I have to be blunt. I do remember taking a course on Docker once, and I also remember working with it a little… But running a container and testing an application inside it? Totally forgotten.
+As illustrated above, my brain goes blank. I do remember taking a Docker course once (or twice?), and I also remember working with it a little… But running a container and testing an application inside it? Totally forgotten.
 
-So, if you’re like me—heard about it but don’t really know it—I believe messing around is often the best way to start. Why?
+So, if you’re like me —heard about it but don’t really know it— I believe this is a good opportunity to mess around a bit, which is often the best way to start.
 
-I’m a big fan of the “jumping in cold water” method, especially when you know almost nothing about something. You won’t learn _everything_ right away, but you _will_ learn how to do _something_ with it. And _that_ will be a huge help when you start learning it properly.
+I’m a big fan of the “jumping in cold water” method, especially when you know almost nothing about something. You won’t learn _everything_ right away, but you _will_ learn how to do _something_ with it. And that will be a huge help when you start learning it properly.
 
 It’s like a “pre-homelab”—a practical exercise you do before fully understanding _what_ you’re doing. Sure, it’s a tutorial, but it has a practical aim: something you can use repeatedly to get familiar with the process. And when you start learning it properly, everything will make much more sense—and faster too.
 
-**What’s Docker?**  
+## What’s Docker?  
+{{< figure src="/images/docker.png" width="800" alt="docker" >}}
 Docker is a platform that allows you to package applications and their dependencies into **isolated containers**. Containers run consistently on **any system**, making development, testing, and deployment easier and more reliable. It’s widely used for building lightweight, portable, and reproducible development environments. It also allows you to test applications safely, without affecting your system.  
 Docker lies at the very backbone of DevOps.
 
 So, here it is:
 ## How to Try LazyVim in a Docker Container
 
+
 If you’ve been curious about **LazyVim** but don’t want to mess up your local Neovim configuration, Docker is the fastest and safest way to give it a spin. LazyVim isn’t a separate program—it’s a **pre-configured Neovim setup** that comes with plugins, themes, and tools ready to go. Using Docker, you can launch an isolated environment with Neovim and LazyVim already configured, avoiding version mismatches, architecture errors, or any changes to your local setup. This makes it perfect for testing, exploring, and experimenting safely, with a clean, simple, and cross-platform setup.
 
 >**What is Neovim?**  
 Neovim is a modern, lightweight text editor based on Vim. It’s highly configurable, extensible, and designed for developers who prefer keyboard-driven workflows. LazyVim builds on Neovim by providing a ready-to-use configuration with useful plugins and sensible defaults.
 
-### Installing Docker
+{{< figure src="/images/lazyvim-which-key-plugin.webp" width="800" alt="lazyvim" >}}
+## Installing Docker
 
-- **Linux:** Most distributions let you install Docker via the package manager. For example, on Ubuntu:
+### Linux
+Most distributions let you install Docker via the package manager. For example, on Ubuntu:
     
-    `sudo apt update sudo apt install docker.io sudo systemctl start docker sudo systemctl enable docker`
+```
+sudo apt update 
+sudo apt install docker.io 
+sudo systemctl start docker 
+sudo systemctl enable docker
+```
     
-    Add your user to the `docker` group to run commands without `sudo`:
+Add your user to the `docker` group to run commands without `sudo`:
     
-    `sudo usermod -aG docker $USER`
+```
+sudo usermod -aG docker $USER
+```
     
-- **macOS:**
+### macOS
 you can:
-	- Download and install **Docker Desktop** from [docker.com](https://www.docker.com/products/docker-desktop). Follow the GUI instructions to finish the setup.
+- Download and install **Docker Desktop** from [docker.com](https://www.docker.com/products/docker-desktop). Follow the GUI instructions to finish the setup.  
 or
-	- use Homebrew:
+- use Homebrew:
 
 ```bash
 brew install --cask docker
 ```
     
-- **Windows:** 
+### Window 
 you can:
-	- Download **Docker Desktop** from [docker.com](https://www.docker.com/products/docker-desktop). 
-	- use winget
-	```
-	winget install -e --id Docker.DockerDesktop
-	 ```
+- Download **Docker Desktop** from [docker.com](https://www.docker.com/products/docker-desktop).  
+or
+- use winget
+```
+winget install -e --id Docker.DockerDesktop
+```
 In both cases, make sure [**WSL 2**](https://medium.com/@aitmsi/activating-windows-subsystem-for-linux-2-wsl-2-83c5495367c4) is enabled if you’re on Windows 10/11 Home. Follow the installer steps to complete setup.	 
 
-
+---
 ## The Working Setup: Alpine + LazyVim  
 After trying AppImages and Ubuntu PPAs (and running into architecture errors), I landed on a cleaner approach: **Alpine Linux**.   
 
@@ -71,43 +83,39 @@ Alpine Linux is small, fast, and easy to work with using its built-in package ma
 Here’s the one-liner that works:  
 
 ```bash 
-sudo docker run -w /root -it --rm alpine:edge sh -uelic '   apk add git lazygit fzf curl neovim ripgrep alpine-sdk --update   git clone https://github.com/LazyVim/starter ~/.config/nvim   cd ~/.config/nvim   nvim '
+sudo docker run -w /root -it --rm alpine:edge sh -uelic '   
+  apk add git lazygit fzf curl neovim ripgrep alpine-sdk --update   
+  git clone https://github.com/LazyVim/starter ~/.config/nvim  
+  cd ~/.config/nvim 
+  nvim
+ '
 ```
 
 #### What This Does
 
-- `sudo docker run` → starts a new Docker container
-   
-- `-w /root` → sets the working directory to `/root`
-    
-- `-it` → runs in interactive terminal mode
-    
-- `--rm` → removes the container when you exit
-    
-- `alpine:edge` → lightweight Linux base image
-    
-- `sh -uelic '…'` → executes the commands below inside a shell
+`sudo docker run` → starts a new Docker container  
+`-w /root` → sets the working directory to `/root`  
+`-it` → runs in interactive terminal mode  
+`--rm` → removes the container when you exit  
+`alpine:edge` → lightweight Linux base image  
+`sh -uelic '…'` → executes the commands below inside a shell  
     
 
 Inside the container:
 
-`apk add git lazygit fzf curl neovim ripgrep alpine-sdk --update`
+```
+apk add git lazygit fzf curl neovim ripgrep alpine-sdk --update
+```
 
 Installs all the essentials:
 
-- `git` – version control
-    
-- `lazygit` – interactive Git UI
-    
-- `fzf` – fuzzy finder
-    
-- `curl` – download tool
-    
-- `neovim` – the editor
-    
-- `ripgrep` – fast file search
-    
-- `alpine-sdk` – compilation tools
+`git` – version control  
+`lazygit` – interactive Git UI  
+`fzf` – fuzzy finder  
+`curl` – download tool  
+`neovim` – the editor  
+`ripgrep` – fast file search  
+`alpine-sdk` – compilation tools  
     
 
 Then it clones LazyVim’s starter config and launches Neovim:
@@ -121,7 +129,6 @@ nvim
 When you quit Neovim, the container disappears — nothing is left behind.
 
 ---
-
 ### Creating a Reusable Docker Image
 
 To avoid reinstalling everything every time, you can bake this setup into a reusable image.
@@ -146,7 +153,7 @@ Build the image once:
 docker build -t lazyvim-alpine .
 ```
 
-Now you’ve got a portable, versioned LazyVim environment that works on **Intel, AMD, ARM, and Apple Silicon (M1/M2)**.
+Now you’ve got a portable, versioned LazyVim environment that works on Intel, AMD, ARM, and Apple Silicon (M1/M2).
 
 ---
 

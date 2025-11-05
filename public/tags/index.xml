@@ -2,50 +2,106 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on </title>
-    <link>https://nathanmorello.com/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on </description>
     <image>
       <title></title>
-      <url>https://nathanmorello.com/images/doubtfulman.jpg</url>
-      <link>https://nathanmorello.com/images/doubtfulman.jpg</link>
+      <url>http://localhost:1313/images/doubtfulman.jpg</url>
+      <link>http://localhost:1313/images/doubtfulman.jpg</link>
     </image>
-    <generator>Hugo -- 0.152.2</generator>
+    <generator>Hugo -- 0.151.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Oct 2025 23:35:19 +0100</lastBuildDate>
-    <atom:link href="https://nathanmorello.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Alpine</title>
+      <link>http://localhost:1313/tags/alpine/</link>
+      <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/alpine/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dev-Environment</title>
+      <link>http://localhost:1313/tags/dev-environment/</link>
+      <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/dev-environment/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Docker</title>
+      <link>http://localhost:1313/tags/docker/</link>
+      <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/docker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lazyvim</title>
+      <link>http://localhost:1313/tags/lazyvim/</link>
+      <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/lazyvim/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Neovim</title>
+      <link>http://localhost:1313/tags/neovim/</link>
+      <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/neovim/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Bash</title>
-      <link>https://nathanmorello.com/tags/bash/</link>
+      <link>http://localhost:1313/tags/bash/</link>
       <pubDate>Thu, 30 Oct 2025 23:35:19 +0100</pubDate>
-      <guid>https://nathanmorello.com/tags/bash/</guid>
+      <guid>http://localhost:1313/tags/bash/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux</title>
-      <link>https://nathanmorello.com/tags/linux/</link>
+      <link>http://localhost:1313/tags/linux/</link>
       <pubDate>Thu, 30 Oct 2025 23:35:19 +0100</pubDate>
-      <guid>https://nathanmorello.com/tags/linux/</guid>
+      <guid>http://localhost:1313/tags/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>System Administration</title>
-      <link>https://nathanmorello.com/tags/system-administration/</link>
+      <link>http://localhost:1313/tags/system-administration/</link>
       <pubDate>Thu, 30 Oct 2025 23:35:19 +0100</pubDate>
-      <guid>https://nathanmorello.com/tags/system-administration/</guid>
+      <guid>http://localhost:1313/tags/system-administration/</guid>
       <description></description>
     </item>
     <item>
       <title>Zettelkasten</title>
-      <link>https://nathanmorello.com/tags/zettelkasten/</link>
+      <link>http://localhost:1313/tags/zettelkasten/</link>
       <pubDate>Thu, 30 Oct 2025 23:35:19 +0100</pubDate>
-      <guid>https://nathanmorello.com/tags/zettelkasten/</guid>
+      <guid>http://localhost:1313/tags/zettelkasten/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Learning</title>
+      <link>http://localhost:1313/tags/learning/</link>
+      <pubDate>Tue, 28 Oct 2025 23:39:23 +0100</pubDate>
+      <guid>http://localhost:1313/tags/learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mental Health</title>
+      <link>http://localhost:1313/tags/mental-health/</link>
+      <pubDate>Tue, 28 Oct 2025 23:39:23 +0100</pubDate>
+      <guid>http://localhost:1313/tags/mental-health/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Social Networks</title>
+      <link>http://localhost:1313/tags/social-networks/</link>
+      <pubDate>Tue, 28 Oct 2025 23:39:23 +0100</pubDate>
+      <guid>http://localhost:1313/tags/social-networks/</guid>
       <description></description>
     </item>
     <item>
       <title>Nathan Morello</title>
-      <link>https://nathanmorello.com/tags/nathan-morello/</link>
+      <link>http://localhost:1313/tags/nathan-morello/</link>
       <pubDate>Tue, 28 Oct 2025 23:30:13 +0100</pubDate>
-      <guid>https://nathanmorello.com/tags/nathan-morello/</guid>
+      <guid>http://localhost:1313/tags/nathan-morello/</guid>
       <description></description>
     </item>
   </channel>
