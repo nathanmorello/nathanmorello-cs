@@ -1,51 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on </title>
-    <link>https://nathanmorello-cs.pages.dev/tags/</link>
+    <link>https://nathanmorello.com/tags/</link>
     <description>Recent content in Tags on </description>
-    <image>
-      <title></title>
-      <url>https://nathanmorello-cs.pages.dev/images/doubtfulman.jpg</url>
-      <link>https://nathanmorello-cs.pages.dev/images/doubtfulman.jpg</link>
-    </image>
-    <generator>Hugo -- 0.151.2</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 30 Oct 2025 23:35:19 +0100</lastBuildDate>
-    <atom:link href="https://nathanmorello-cs.pages.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://nathanmorello.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bash</title>
-      <link>https://nathanmorello-cs.pages.dev/tags/bash/</link>
+      <link>https://nathanmorello.com/tags/bash/</link>
       <pubDate>Thu, 30 Oct 2025 23:35:19 +0100</pubDate>
-      <guid>https://nathanmorello-cs.pages.dev/tags/bash/</guid>
+      <guid>https://nathanmorello.com/tags/bash/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux</title>
-      <link>https://nathanmorello-cs.pages.dev/tags/linux/</link>
+      <link>https://nathanmorello.com/tags/linux/</link>
       <pubDate>Thu, 30 Oct 2025 23:35:19 +0100</pubDate>
-      <guid>https://nathanmorello-cs.pages.dev/tags/linux/</guid>
+      <guid>https://nathanmorello.com/tags/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>System Administration</title>
-      <link>https://nathanmorello-cs.pages.dev/tags/system-administration/</link>
+      <link>https://nathanmorello.com/tags/system-administration/</link>
       <pubDate>Thu, 30 Oct 2025 23:35:19 +0100</pubDate>
-      <guid>https://nathanmorello-cs.pages.dev/tags/system-administration/</guid>
+      <guid>https://nathanmorello.com/tags/system-administration/</guid>
       <description></description>
     </item>
     <item>
       <title>Zettelkasten</title>
-      <link>https://nathanmorello-cs.pages.dev/tags/zettelkasten/</link>
+      <link>https://nathanmorello.com/tags/zettelkasten/</link>
       <pubDate>Thu, 30 Oct 2025 23:35:19 +0100</pubDate>
-      <guid>https://nathanmorello-cs.pages.dev/tags/zettelkasten/</guid>
+      <guid>https://nathanmorello.com/tags/zettelkasten/</guid>
       <description></description>
     </item>
     <item>
       <title>Nathan Morello</title>
-      <link>https://nathanmorello-cs.pages.dev/tags/nathan-morello/</link>
+      <link>https://nathanmorello.com/tags/nathan-morello/</link>
       <pubDate>Tue, 28 Oct 2025 23:30:13 +0100</pubDate>
-      <guid>https://nathanmorello-cs.pages.dev/tags/nathan-morello/</guid>
+      <guid>https://nathanmorello.com/tags/nathan-morello/</guid>
       <description></description>
     </item>
   </channel>

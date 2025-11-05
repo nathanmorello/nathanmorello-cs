@@ -1,4 +1,4 @@
-baseURL: "https://nathanmorello-cs.pages.dev/"
+baseURL: "https://nathanmorello.com/"
 # baseURL: "https://nathanmorello.com/"
 languageCode: "en-us"
 pagination.pagerSize: 9
@@ -137,9 +137,9 @@ menu:
       name: All Articles
       url: /posts/
       weight: 3
-    - identifier: TechStack
-      name: Tech Stack
-      url: /categories/tech-stack
+    - identifier: CoreStack
+      name: Core Stack
+      url: /categories/core-stack
       weight: 10
     - identifier: SoftStack
       name: Soft Stack
