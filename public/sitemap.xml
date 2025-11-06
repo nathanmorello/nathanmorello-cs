@@ -2,70 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://nathanmorello.com/</loc>
     <lastmod>2025-11-06T14:30:23+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://nathanmorello.com/posts/</loc>
     <lastmod>2025-11-06T14:30:23+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/learning/</loc>
-    <lastmod>2025-11-06T14:30:23+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/note-taking-system/</loc>
-    <lastmod>2025-11-06T14:30:23+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-11-06T14:30:23+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/soft-stack/</loc>
-    <lastmod>2025-11-06T14:30:23+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/stop-highlighting-now/</loc>
-    <lastmod>2025-11-06T14:30:23+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-11-06T14:30:23+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/alpine/</loc>
+    <loc>https://nathanmorello.com/tags/alpine/</loc>
     <lastmod>2025-11-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/bash/</loc>
+    <loc>https://nathanmorello.com/tags/bash/</loc>
     <lastmod>2025-11-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/core-stack/</loc>
+    <loc>https://nathanmorello.com/categories/</loc>
     <lastmod>2025-11-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/dev-environment/</loc>
+    <loc>https://nathanmorello.com/categories/core-stack/</loc>
     <lastmod>2025-11-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/docker/</loc>
+    <loc>https://nathanmorello.com/tags/dev-environment/</loc>
     <lastmod>2025-11-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/lazyvim/</loc>
+    <loc>https://nathanmorello.com/tags/docker/</loc>
     <lastmod>2025-11-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/neovim/</loc>
+    <loc>https://nathanmorello.com/tags/lazyvim/</loc>
     <lastmod>2025-11-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/docker-container/</loc>
+    <loc>https://nathanmorello.com/tags/neovim/</loc>
     <lastmod>2025-11-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/linux/</loc>
+    <loc>https://nathanmorello.com/tags/</loc>
+    <lastmod>2025-11-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nathanmorello.com/posts/docker-container/</loc>
+    <lastmod>2025-11-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nathanmorello.com/tags/linux/</loc>
     <lastmod>2025-10-30T23:35:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/mini-howtos/</loc>
+    <loc>https://nathanmorello.com/posts/mini-howtos/</loc>
     <lastmod>2025-10-30T23:35:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/system-administration/</loc>
+    <loc>https://nathanmorello.com/tags/system-administration/</loc>
     <lastmod>2025-10-30T23:35:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/zettelkasten/</loc>
+    <loc>https://nathanmorello.com/tags/zettelkasten/</loc>
     <lastmod>2025-10-30T23:35:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://nathanmorello.com/about/</loc>
     <lastmod>2025-10-28T23:30:13+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/nathan-morello/</loc>
+    <loc>https://nathanmorello.com/tags/nathan-morello/</loc>
     <lastmod>2025-10-28T23:30:13+01:00</lastmod>
   </url>
 </urlset>
