@@ -1,7 +1,7 @@
 ---
 title: "Stop Highlighting Now"
 date: 2025-11-06T14:30:23+01:00
-draft: true
+draft: false
 tags: ["Learning", "Note-taking System"]
 categories: "Soft Stack"
 summary: ""
