@@ -19,7 +19,7 @@ git commit -m "$commit_msg"
 git push origin main   # push your changes to the remote repository
 
 # 4. Generate the static site from Hugo
-hugo
+hugo --cleanDestinationDir
 
 # 5. Update the gh-pages branch with the static files
 git push origin `git subtree split --prefix public main`:refs/heads/gh-pages --force

@@ -1,5 +1,4 @@
 baseURL: "https://nathanmorello.com/"
-# baseURL: "https://nathanmorello.com/"
 languageCode: "en-us"
 pagination.pagerSize: 9
 theme: "PaperMod"
