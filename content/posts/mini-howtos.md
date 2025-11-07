@@ -17,32 +17,26 @@ Anyone who’s worked as a sysadmin knows this: sometimes you only manage to sol
 ...And the next time, you can’t remember how you did it!
 
 
-To avoid losing all this hard-earned knowledge, for several years I kept a single text file called "Everyday-troubleshoot". It worked, but it wasn’t practical. Every time I had to:
-- Remember where I put the file.
-- Look through a sort of "table fo content" I kept at the beginning of the first page.
-- Find the topic.
-- Try the noted solution.
-- Possibly update it.
-- Update the table of content...
-
-It was long and tedious that sometimes I’d *postpone* updating it with a new note, because I just didn't have time... and end up right back where I started.
+To avoid losing all this hard-earned knowledge, for several years I kept a single text file called "Everyday-troubleshoot". It worked, but it wasn’t practical. Every time I had to: remember where I put the file, look through a sort of "table fo content" I kept at the beginning of the first page, find the topic, use, it, update note and table of content... It was long and tedious. So much that sometimes I’d *postpone* updating it with a new note, because I just didn't have time... ending up right back where I started.
 
 Then two things happened:
 
 1. I read [*How to Take Smart Notes*](https://www.amazon.de/How-Take-Smart-Notes-Technique/dp/3982438802?ie=UTF8&tag=googhydr08-21&hvadid=719378855680&hvpos=&hvexid=&hvnetw=g&hvrand=2470447675421112442&hvpone=&hvptwo=&hvqmt=&hvdev=c&ref=pd_sl_1igezu3og_e&tag=&ref=&adgrpid=172726841667&hvpone=&hvptwo=&hvadid=719378855680&hvpos=&hvnetw=g&hvrand=2470447675421112442&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9061166&hvtargid=dsa-1595363597442&hydadcr=&mcid=&gad_source=1) by Sönke Ahrens, discovering the work of Niklas Luhmann and his [*Zettelkasten* Method](https://en.wikipedia.org/wiki/Zettelkasten), as well as its adaptationsin the [digital world](https://www.youtube.com/watch?v=o1NJYnZCfmY), which made me realize the value of (*very*) short and well-crafted notes;
 
 
-2. I decided to improve my knowledge of Bash, because it’s one of the fundamental tools for both Linux administration and for building a career in the DevOps field.
+2. I decided to improve my knowledge of **Bash**, because it’s one of the fundamental tools for both Linux administration and for building a career in the DevOps field.
 
 
 >{{< figure src="/images/burroughscuts.jpg" width="350" alt="Burroughs" >}}  
->So, like a little **William Burroughs**, I started doing a proper [cut-up](https://austinkleon.com/2018/09/18/the-surprisingly-long-history-of-the-cut-up-technique/) of my troubleshooting notes—and other pieces of useful notes taken during the years—to create a **simple**, **fast, fully terminal-based** way to save small documentation notes, snippets, and troubleshooting tips.   
+>So, like a little **William Burroughs**, I started doing a proper [cut-up](https://austinkleon.com/2018/09/18/the-surprisingly-long-history-of-the-cut-up-technique/) of my troubleshooting notes—and other pieces of useful notes taken during the years, and I created **Mini-Howtos**.
 
-A handy tool for organizing all those small discoveries, insights, and searches — **especially helpful when you need to learn and retain information from *someone else’s* documentation**.: how was that `iptables` command? And that Apache fix? Look at that nice Ansible snippet! How is that thing you need to do on the Wazuh server to remove a deprecated agent...?.
-Basically a little *Zettelkaste* dedicated to those famous “**tricks of the trade**” you don’t want to forget... and that you can use for showing off to your colleagues 😎
 
 ## Meet 'mini-howtos'
-So, this is **mini-howtos**. The "mini" stands more for the size of the notes, than for their number, which is getting bigger everyday. It's a small Bash script to
+
+Mini-howtos is a **simple**, **fast, fully terminal-based** bash script to save small documentation notes, snippets, and troubleshooting tips. A handy tool for organizing all those small discoveries, insights, and searches — **especially helpful when you need to learn and retain information from *someone else’s* documentation**.: how was that `iptables` command? And that Apache fix? Look at that nice Ansible snippet! How is that thing you need to do on the Wazuh server to remove a deprecated agent...?.
+"Mini" stands for the size of the notes, that put together create a little *Zettelkasten* dedicated to those famous “**tricks of the trade**” you don’t want to forget... and that you can use for showing off to your colleagues 😎
+
+Mini-howtos can:
 - **create**
 -  **list**
 - and **search** notes interactively and directly from the terminal.
@@ -261,7 +255,7 @@ If you get this error
 
 Unpretentious but very practical.
 
-##### `set -euo pipefail`: Bash’s safety helmet
+### `set -euo pipefail`: Bash’s safety helmet
 
 At the beginning of the script you’ll find this line:
 
@@ -279,7 +273,7 @@ Here’s what it does:
 
 Result: the script stops when something goes wrong, instead of creating half-empty files or truncated notes.
 
-##### ANSI colors for a more readable terminal
+### ANSI colors for a more readable terminal
 
 The variables:
 
@@ -296,15 +290,12 @@ In Bash, the `\033[` sequences introduce **ANSI escape codes**, which are used t
 In this script, each section uses a consistent color:
 
 - **yellow** for input or interactive prompts,
-
 - **blue** for the note list,
-
 - **pink** for search results,
-
 - **reset** to return to the normal color.
 
 
-##### Clear and modular functions
+### Clear and modular functions
 
 The script is divided into **three main functions**:
 
@@ -318,7 +309,7 @@ The script is divided into **three main functions**:
 Each function is isolated, with a specific job and no unnecessary global variables.
 This approach makes the script **easy to maintain** and extend: for example, if you wanted to add a `delete` command later, you’d just add a new function and one case at the bottom.
 
-##### `grep`, `mapfile` and Bash arrays
+### `grep`, `mapfile` and Bash arrays
 
 The search and indexing section makes good use of some “lesser-known” but powerful modern Bash functions:
 
@@ -330,7 +321,7 @@ The search and indexing section makes good use of some “lesser-known” but po
 
 These techniques allow the script to handle dozens (or hundreds) of note files efficiently.
 
-##### The `print_line` trick
+### The `print_line` trick
 
 A small but elegant function:
 
@@ -341,7 +332,7 @@ print_line() { local char="$1" local len="$2" printf "%${len}s\n" | tr " " "$cha
 It prints a horizontal line (like `------`) matching the length of the note’s title.
 A visual detail that makes the notes look neat and consistent.
 
-##### `mkdir -p` and environment variables
+### `mkdir -p` and environment variables
 
 First of all, the script ensures that the notes directory exists:
 
@@ -358,7 +349,7 @@ If you prefer `nano` or `micro`, you just have change the variable at the top of
 It’s not a knowledge management system like Obsidian or Notion, but it’s **fast, local, textual, and portable**.
 
 If you want to try, adapt it, make it better, here is the script. Put it in your `$PATH`, ***use it***, make it better.
-It al starts with
+It all starts with
 
 ```
 mini-howtos create

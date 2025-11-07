@@ -1,17 +1,16 @@
 ---
-title: "Stop Highlighting Now"
+title: "Stop Highlighting Now!"
 date: 2025-11-06T14:30:23+01:00
 draft: false
 tags: ["Learning", "Note-taking System"]
 categories: "Soft Stack"
-summary: ""
+summary: "Learn taking good notes, instead."
 images: 
   - "/images/highlight.png"
 
 ---
 {{< figure src="/images/highlight.png" alt="highlight" >}}
-The following is a thought I had reading [*How to Take Smart Notes*](https://www.amazon.de/How-Take-Smart-Notes-Technique/dp/3982438802?ie=UTF8&tag=googhydr08-21&hvadid=719378855680&hvpos=&hvexid=&hvnetw=g&hvrand=2470447675421112442&hvpone=&hvptwo=&hvqmt=&hvdev=c&ref=pd_sl_1igezu3og_e&tag=&ref=&adgrpid=172726841667&hvpone=&hvptwo=&hvadid=719378855680&hvpos=&hvnetw=g&hvrand=2470447675421112442&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9061166&hvtargid=dsa-1595363597442&hydadcr=&mcid=&gad_source=1) by  
-Sönke Ahrens.
+The following is a thought I had reading [*How to Take Smart Notes*](https://www.amazon.de/How-Take-Smart-Notes-Technique/dp/3982438802?ie=UTF8&tag=googhydr08-21&hvadid=719378855680&hvpos=&hvexid=&hvnetw=g&hvrand=2470447675421112442&hvpone=&hvptwo=&hvqmt=&hvdev=c&ref=pd_sl_1igezu3og_e&tag=&ref=&adgrpid=172726841667&hvpone=&hvptwo=&hvadid=719378855680&hvpos=&hvnetw=g&hvrand=2470447675421112442&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9061166&hvtargid=dsa-1595363597442&hydadcr=&mcid=&gad_source=1) by Sönke Ahrens.
 
 If things like improving your learning method are your thing, you should read it.
 
@@ -41,7 +40,8 @@ It was then—while jotting down short notes, thoughts as much as facts, in a no
 I still vividly remember the first time: I must have been 15 or something, hunched for hours over the volumes of our old encyclopedia, jumping from one entry to another to learn (I can’t even recall why) about the Battle of Qadesh between Egypt and the Hittite Empire, 1274 BC…
 
 But finding subjects and moments that truly move you isn’t easy.  
-What _is_ easy is making every moment of study interesting—by taking notes instead of highlighting.
+What we _can_ do is to train ourselves in making every moment of study worth. 
+And I believe start taking notes instead of highlighting is a very good start.
 
 **Don’t highlight.**  
 **Don’t underline.**  

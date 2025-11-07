@@ -20,17 +20,16 @@ It all started when I was watching [this video](https://www.youtube.com/watch?v=
 {{< figure src="/images/docker-lazy1.png" width="600" alt="docker lazy" >}}
 
 
-As illustrated above, my brain goes blank. I do remember taking a Docker course once (or twice?), and I also remember working with it a little… But running a container and testing an application inside it? Totally forgotten.
+As illustrated here above, my brain goes blank. I do remember taking a Docker course once (or twice?), and I also remember working with it a little… But running a container and testing an application inside it? Totally forgotten.
 
 So, if you’re like me —heard about it but don’t really know it— I believe this is a good opportunity to mess around a bit, which is often the best way to start.
 
 
 
 ## What’s Docker?  
-Docker is a platform that allows you to package applications and their dependencies into **isolated containers**. Containers run consistently on **any system**, making development, testing, and deployment easier and more reliable. It’s widely used for building lightweight, portable, and reproducible development environments. It also allows you to test applications safely, without affecting your system.  
+[Docker](https://docker.com/) is a platform that allows you to package applications and their dependencies into **isolated containers**. Containers run consistently on **any system**, making development, testing, and deployment easier and more reliable. It’s widely used for building lightweight, portable, and reproducible development environments. It also allows you to test applications safely, without affecting your system.  
 Docker lies at the very backbone of DevOps.
 
-So, here it is:
 ## How to Try LazyVim in a Docker Container
 
 
@@ -68,7 +67,7 @@ or
 brew install --cask docker
 ```
     
-### Window 
+### Windows 
 you can:
 - Download **Docker Desktop** from [docker.com](https://www.docker.com/products/docker-desktop).  
 or
