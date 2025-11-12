@@ -1,7 +1,7 @@
 ---
 title: "From Doodle to Blog - How I Make my Illustrations"
 date: 2025-11-09T23:11:58+01:00
-draft: true
+draft: false
 tags: ["AI", "Drawing", "Gimp"]
 categories: ["Soft Stack", "How I make this blog"]
 summary: "My workflow — from first sketch to final blog illustration — and how I think AI should (and shouldn’t) be used."
