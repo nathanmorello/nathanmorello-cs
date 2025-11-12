@@ -11,12 +11,19 @@
     </image>
     <generator>Hugo -- 0.151.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 06 Nov 2025 14:30:23 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 09 Nov 2025 23:11:58 +0100</lastBuildDate>
     <atom:link href="https://nathanmorello.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How I Make This Blog</title>
+      <link>https://nathanmorello.com/categories/how-i-make-this-blog/</link>
+      <pubDate>Sun, 09 Nov 2025 23:11:58 +0100</pubDate>
+      <guid>https://nathanmorello.com/categories/how-i-make-this-blog/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Soft Stack</title>
       <link>https://nathanmorello.com/categories/soft-stack/</link>
-      <pubDate>Thu, 06 Nov 2025 14:30:23 +0100</pubDate>
+      <pubDate>Sun, 09 Nov 2025 23:11:58 +0100</pubDate>
       <guid>https://nathanmorello.com/categories/soft-stack/</guid>
       <description></description>
     </item>

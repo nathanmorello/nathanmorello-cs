@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.151.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 06 Nov 2025 14:30:23 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 09 Nov 2025 23:11:58 +0100</lastBuildDate>
     <atom:link href="https://nathanmorello.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>From Doodle to Blog - How I Make my Illustrations</title>
+      <link>https://nathanmorello.com/posts/drawing-workflow/</link>
+      <pubDate>Sun, 09 Nov 2025 23:11:58 +0100</pubDate>
+      <guid>https://nathanmorello.com/posts/drawing-workflow/</guid>
+      <description>My workflow — from first sketch to final blog illustration — and how I think AI should (and shouldn’t) be used.</description>
+    </item>
     <item>
       <title>Stop Highlighting Now!</title>
       <link>https://nathanmorello.com/posts/stop-highlighting-now/</link>
