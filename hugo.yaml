@@ -146,10 +146,14 @@ menu:
       name: Soft Stack
       url: /categories/soft-stack
       weight: 20
+    - identifier: HowImakeThisBlog
+      name: How I Make This Blog
+      url: /categories/how-i-make-this-blog
+      weight: 30
     - identifier: tags
       name: Tags
       url: /tags/
-      weight: 30
+      weight: 40
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
