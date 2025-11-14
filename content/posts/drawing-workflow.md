@@ -134,7 +134,7 @@ The result isn’t bad, but it’s more impersonal.
 
 **ChatGPT tends to standardize — maybe even homogenize — any originality, blending it into an average, “dataset-approved” idea of beauty.**
 
-Of course, it’s not always a bad thing. I do like some of AI’s variations of my self-portrait that I used for an illustration on troubleshooting. And eventually one of them became my GitHub profile picture. But I also think that the more original basis there is, the better: and I would argue that doesn't matter how original, it gets lost pretty quick, after a few re-elaborations.  
+Of course, it’s not always a bad thing. I do like some of AI’s variations of my self-portrait that I used for an illustration on troubleshooting. And eventually one of them became my GitHub profile picture for a while. But I also think that the more original basis there is, the better: and I would argue that doesn't matter how original, it gets lost pretty quick, after a few re-elaborations.  
 
 {{< figure src="/images/troubleshoot.png" width="800" alt="too much" >}}
 
