@@ -12,6 +12,8 @@ cover:
 
 {{< figure src="/images/nat-takin-notesY.png" alt="nat" >}}
 
+*You can download the mini-howtos script and a "Starting Note folder" on my [GitHub](https://github.com/nathanmorello/lab/tree/main/bash/Mini-Howtos) account*.
+
 Anyone who’s worked as a sysadmin knows this: sometimes you only manage to solve a problem after half an hour (or more) of searching on Stack Overflow or repeatedly tweaking configurations. Then, finally, you get it working.
 
 ...And the next time, you can’t remember how you did it!

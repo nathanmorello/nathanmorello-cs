@@ -85,8 +85,8 @@ params:
   socialIcons:
 #    - name: x
 #      url: "https://x.com/NathanMorello4"
-#    - name: github
-#      url: "https://github.com/nathanmorello"
+    - name: github
+      url: "https://github.com/nathanmorello"
     - name: LinkedIn
       url: "https://www.linkedin.com/in/nathan-morello-48623223/"
 
