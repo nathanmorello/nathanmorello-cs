@@ -3,7 +3,7 @@ title: "The Tools for My Note-Taking System: Obsidian, Markdown and Git"
 date: 2025-11-28T22:45:01+01:00
 draft: False
 tags: ["Obsidian", "Note-Taking", "GitHub", "Markdown"]
-categories: ["How I Make this Blog"]
+categories: ["Core Stack", "How I Make this Blog"]
 summary: "My current set of tools for writing, editing and storing my notes and articles"
 images: [/images/note-taking-tools.jpg]
 ---
