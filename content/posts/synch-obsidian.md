@@ -3,7 +3,7 @@ title: "How to Keep the  Obsidian Vault in your Phone in Sync with Git"
 date: 2025-12-02T22:16:47+01:00
 draft: true
 tags: ["Obsidian", "GitHub", "Termux"]
-categories: ["How I Make This Blog"]
+categories: ["Core Stack", "How I Make This Blog"]
 summary: "A simple Git-based workflow to keep your Obsidian notes in sync between phone and computer — without conflicts, plugins, or complicated setup."
 images: [/images/synch.jpg]
 ---
