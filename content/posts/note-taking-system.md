@@ -3,7 +3,7 @@ title: "The Quest for the Perfect Note-Taking Method"
 date: 2025-11-30T19:20:28+01:00
 draft: False
 tags: ["Smart Notes", "PARA Method", "Obsidian", "Learning techniques", "Structure vs Plan"]
-categories: ["How I made this blog"]
+categories: ["How I Make This Blog"]
 summary: "What I have learned about smart note taking, so far, and how I use it to write articles for this blog"
 images: [/images/note-taking-system.jpg]
 ---
