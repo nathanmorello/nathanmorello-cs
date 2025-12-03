@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>AI on </title>
-    <link>https://nathanmorello.com/tags/ai/</link>
+    <link>http://localhost:1313/tags/ai/</link>
     <description>Recent content in AI on </description>
     <image>
       <title></title>
-      <url>https://nathanmorello.com/images/doubtfulman.jpg</url>
-      <link>https://nathanmorello.com/images/doubtfulman.jpg</link>
+      <url>http://localhost:1313/images/doubtfulman.jpg</url>
+      <link>http://localhost:1313/images/doubtfulman.jpg</link>
     </image>
     <generator>Hugo -- 0.151.2</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 09 Nov 2025 23:11:58 +0100</lastBuildDate>
-    <atom:link href="https://nathanmorello.com/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>From Doodle to Blog - How I Make My Blog Illustrations</title>
-      <link>https://nathanmorello.com/posts/drawing-workflow/</link>
+      <link>http://localhost:1313/posts/drawing-workflow/</link>
       <pubDate>Sun, 09 Nov 2025 23:11:58 +0100</pubDate>
-      <guid>https://nathanmorello.com/posts/drawing-workflow/</guid>
+      <guid>http://localhost:1313/posts/drawing-workflow/</guid>
       <description>My workflow — from first sketch to final blog illustration — and how I think AI should (and shouldn’t) be used.</description>
     </item>
   </channel>
