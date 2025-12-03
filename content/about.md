@@ -27,6 +27,6 @@ Before that and during most of my university years, I have been a **painter** an
 
 So, stories, cultures, languages, systems, codes, learning methods... These are just few of the subjects that I follow at the moment and they tend to come up together, when I think, talk and write. Articles in which this "lateral" material is more relevant fall under the category "**Soft Stack**," here on the menu above.
 
-All the illustrations of the blog are made by me. Soon to come an article about how I make them.
+⬇️ All the illustrations of the blog are made by me. [Here](/posts/drawing-workflow/) you can find an article about how I make them.
 
 {{< figure src="/images/trustmepen.jpg" width="400" alt="list" >}}
