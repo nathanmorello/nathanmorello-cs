@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://nathanmorello.com/sitemap.xml
